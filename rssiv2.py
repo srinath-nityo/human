@@ -78,11 +78,6 @@ while True:
         print("RSSI:", max_rssi)
         print("Movement:", movement_detected)
         print("Direction:", direction_str)
-
-        # OLED display (update accordingly)
-        with canvas(device) as draw:
-            # ... Update the OLED display with RSSI, movement, direction
-
     except Exception as e:
         print(f"Error occurred: {str(e)}")
 
